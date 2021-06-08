@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://homegarden.com/schemas/applicantdata",
+    "title": "Applicant data collection",
+    "descriptions": "A schema for applicant data",
+    "type": "object",
+    "properties": {
+        "name": {
+            "description":"Applicant name",
+            "type": "string",
+            "minimum":1,
+            "maximum":50
+        },
+        "email": {
+            "description":"member email",
+            "type": "string",
+            "format": "email"
+        },
+        "password":{
+            "description":"password",
+             "type":"string",
+             "minlength":8,
+             "maxlength":15
+        },
+        "know about us?":{
+            "description": "survey",
+                   "type": "array",
+                   "items":{
+                       "type":"string",
+                       "enum": ["Facebook", "Advertisements", "Friends"]
+                   }
+        },
+        "comments":{
+            "description": "Comments or extra info from the applicant",
+                   "type": "string",
+              "maxLength": 400
+        }
+    },
+    "required": ["name","email","password","know about us?","comments"],
+    "additionalProperties": false
+
+}

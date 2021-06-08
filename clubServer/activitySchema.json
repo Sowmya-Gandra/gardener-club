@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://homegarden.com/schemas/activitydata",
+    "title": "Activtiy data collection",
+    "descriptions": "A schema for activity data",
+    "type": "object",
+    "properties": {
+        "name": {
+            "description":"Activity name",
+            "type": "string",
+            "minlength":1,
+            "maxlength":50
+        },
+        "dates":{
+            "description":"Activity Dates",
+            "type": "array",
+            "minlength":1,
+            "maxlength":366,
+            "items":{
+                "type":"string"
+            }
+        }
+    },
+    "required": ["name","dates"],
+    "additionalProperties": false
+
+}

@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://homegarden.com/schemas/memberdata",
+    "title": "Member data collection",
+    "descriptions": "A schema for member data",
+    "type": "object",
+    "properties": {
+        "firstName": {
+            "description":"member firstname",
+            "type": "string",
+            "minlength":1,
+            "maxlength":20
+        },
+        "lastName": {
+            "description":"member lastname",
+            "type": "string",
+            "minlength":1,
+            "maxlength":20
+        },
+        "email": {
+              "description":"member email",
+              "type": "string",
+              "minlength":10,         
+              "maxlength":30,
+               "format":"email"    
+        },
+        "role":{
+            "description": "member or not",
+            "type": "string",
+            "minlength":1,
+            "maxlength":20,
+            "enum": ["member","guest","admin"]
+        },
+        "password":{
+            "description": "member secured details",
+            "type": "string",
+            "minlength":1,
+            "maxlength":100 
+        }
+    },
+    "required": ["firstName","lastName","email","role","password"],
+    "additionalProperties": false
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- English -->
+    <head>
+        <title>Membership</title>
+        <link rel="stylesheet" href="change.css">
+        <link rel="stylesheet" type="text/css" href="club.css">
+        <style>
+            #ThanksDialog {
+                             border:black;
+                             background-color:white;            
+              }
+#ThanksDialog.HideClass{ display:none;}
+#ThanksDialog.showClass{display:block}
+       </style>
+    </head>
+    <body> 
+        <header>
+           <nav>
+                 <a href="index.html" >Home</a>
+                 <a href="login.html" >Login</a>
+                 <a href="clubactivities.html" >Activities</a>
+                 <a  style="background-color:Bisque;" href="Membership.html">Membership</a>
+           </nav>
+       </header>
+        <main>
+              <h1>Membership</h1>
+              <h2>Requirements</h2>
+                    <p> Curious to participate in the activities and share experiences with fellow members of the club </p>
+                    <ul>
+                         <li> Completely free </li>
+                         <li> Attend meetings via zoom every weekend</li>
+                         <li> Upload your garden stories</li>
+                    <ul>
+             <form action="" method="get" class="credentials">
+                 <div class="credentials">
+                    <label for="name">Name:</label>
+                    <input type="text"  name="Name"  id ="Name"  placeholder="firstname"  required minlength="1"  maxlength="15 ">
+                    <label for="email">Email: </label>
+                    <input type="email"  name="email"  id="email"  placeholder="email"  required minlength="1"  maxlength="70" >
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" placeholder="password" required minlength="1" maxlength="15" >
+                    <label for="survey">Know about us? </label>
+                    <select id="survey" > 
+                              <option>--select any--</option> 
+                              <option>Facebook</option>
+                               <option>Advertisements</option>
+                              <option>Friends</option>         
+                     </select>
+                    <label for="comments"> Comments:</label>
+                    <textarea name="comments" rows="8" cols="20" id="comments"></textarea>
+                    <button id="submit" >signup</button>
+                </div>
+             
+            </form>
+         
+            <footer> © 2020 Fremont Gardening Club</footer>     
+        </main>  
+    </body>
+</html>

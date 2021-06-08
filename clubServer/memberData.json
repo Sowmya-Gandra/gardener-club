@@ -1,0 +1,7 @@
+{
+    "firstName": "sam",
+    "lastName": "perick",
+    "email": "samperick127@yandex.com",
+    "role": "member",
+    "hash": "Long thing here from bcryptjs"
+    }

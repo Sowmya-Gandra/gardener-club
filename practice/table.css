@@ -1,0 +1,17 @@
+table,th,td{
+border:1px solid #000;
+border-collapse:collapse;
+padding:10px;
+}
+th{
+letter-spacing:2px;
+}
+td{
+letter-spacing:1px;
+}
+tr:nth-child(2n){
+background-color: #ddd;
+}
+tr:nth-child(2n+1){
+background-color: #fff;
+}

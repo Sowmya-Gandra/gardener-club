@@ -1,0 +1,130 @@
+@font-face{
+src:url(Roboto/Roboto-Italic.ttf);
+font-family:"Roboto";
+}
+
+h1  {
+text-align:center;
+font-family:"Roboto";
+}
+body {
+display:flex;
+justify-content:center;
+padding:10px;
+background-color:lightpink;
+}
+#naviclist {
+background-color:Ivory;
+border:0.3em solid blue;
+display: flex;
+justify-content:space-around;
+font-size: 20px;
+padding: 40px;
+position:fixed;
+top:0px;
+left:10px;
+right:10px;
+}
+.menunav{
+  background-color: bisque;
+}
+a:active{color:yellow; background-color:bisque;}
+section {
+width: 1000px;
+background-color:yellow;
+margin-top:110px;
+}
+footer{
+text-align:center;
+}
+table{
+width:90%;
+}
+caption,th{
+text-align:left;
+}
+table,th,td{
+border:1px solid #000;
+border-collapse:collapse;
+padding:10px;
+}
+th{
+letter-spacing:2px;
+}
+td{
+letter-spacing:1px;
+}
+tr:nth-child(2n){
+background-color: #ddd;
+}
+tr:nth-child(2n+1){
+background-color: #fff;
+}
+#Fun{
+    cursor:crosshair;
+}
+section.doodle{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  border-style: dotted;
+  background-color:AntiqueWhite;
+}
+section.doodle h2{
+  text-align:center;
+}
+svg{
+border:black;
+background-color:white;
+}
+input:invalid {
+  background-color:papayawhip;
+}
+input:valid {
+  background-color: lightgreen;
+}
+.credentials {
+text-align:center;
+display:grid;
+grid-template-columns:10em 20em;
+grid-row-gap:0.5em;
+grid-column-gap:0.5em;
+padding:1rem;
+}
+.logindetails {
+grid-template-columns:10em 20em;
+grid-row-gap:0.5em;
+grid-column-gap:0.5em;
+padding:1rem;
+}
+div{
+  text-align:center;
+  margin: 1em;
+  padding:0.5em;
+  
+}
+
+
+.addActivityGrid{
+
+  padding-top:20%;
+  margin:5px;
+
+}
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  table.activity-form {
+    border: none !important;
+    background-color: transparent!important; border-style: none!important;}
+  .activity-form > th {
+    border: 0px solid black!important;
+  }

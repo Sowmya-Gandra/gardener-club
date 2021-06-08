@@ -1,0 +1,23 @@
+{
+  "name": "myreact",
+  "version": "1.0.0",
+  "description": "react based website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sowmya Puchakayala",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "node-fetch": "^2.6.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}

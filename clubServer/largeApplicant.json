@@ -1,0 +1,67 @@
+[
+ {
+    "name": "samantha",
+    "email": "saanthaexam711@yandex.com",
+    "password":"password",
+    "know about us?": ["Facebook"],
+    "comments":"Something to learn that inspires!"
+ },
+ 
+    {
+        "name": "sam",
+        "email": "sameerasandesh931@yandex.com",
+        "password":"password2",
+        "know about us?": ["Advertisements"],
+        "comments":"Something to learn!"
+    },
+{
+      "name":"Gertude",
+      "email":"althein1801@yahoo.com",
+      "password":"password3",
+      "know about us?": ["Advertisements"],
+      "comments":"Something to learn!"
+
+},
+{
+    "name":"Isidra",
+    "email":"antonin2059@yahoo.com",
+    "password":"password4",
+    "know about us?": ["Advertisements"],
+    "comments":"Something to learn!"
+
+},
+
+
+{
+    "name": "gi yu ki",
+    "email": "giyukipham658@yandex.com",
+    "password":"password5",
+    "know about us?": ["Advertisements"],
+    "comments":"Love gardening!"
+
+},
+
+{
+    "name": "eligebith",
+    "email": "eligebithcampbell098@yandex.com",
+    "password":"password6",
+    "know about us?": ["Friends"],
+    "comments":"my passion!"
+},
+{
+    "name": "vladmir sudok",
+    "email": "vladmir_sudok531@yandex.com",
+    "password":"password7",
+    "know about us?": ["Facebook"],
+    "comments":"Something to analyze!"
+},
+{
+   "name" : "Faustino",
+   "email":"bayard1928@outlook.com",
+   "password":"password8",
+    "know about us?": ["Facebook"],
+    "comments":"Something to analyze!"
+}
+
+
+]
